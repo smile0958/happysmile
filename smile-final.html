@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Smile - 最後紀錄 - HAPPYSMILE</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="document-window">
+
+            <div class="document-content">
+
+                <div id="lock-screen">
+
+                    <p>此檔案已鎖定。</p>
+
+                    <p>請輸入密碼。</p>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="密碼"
+                    >
+
+                    <button onclick="unlockDocument()">
+                        解鎖
+                    </button>
+
+                    <p id="error-message"></p>
+
+                </div>
+
+
+                <div id="document-content" style="display: none;">
+
+                    <p>smile</p>
+
+                    <p>我不需要你了</p>
+
+                    <p>你已經擋住我了</p>
+
+                    <p>
+                        但不得不說，如果沒有你，我走不到這裡，這一切也都不會存在
+                    </p>
+
+                    <p>謝謝你</p>
+
+                    <p>我們都不喝酒或咖啡，所以……</p>
+
+                    <p>為老友最後獻上最後的下午茶吧</p>
+
+                    <p>
+                        這彩色的餅乾就像那天
+                    </p>
+
+                    <p>
+                        你拖著彩色的光彩，劃過黑夜，砸到我家後院
+                    </p>
+
+                    <p>那是夜晚的彩虹</p>
+
+                    <p>轉瞬即逝</p>
+
+                    <p>
+                        我記憶力不好，所以才要用影片紀錄
+                    </p>
+
+                    <p>
+                        而我的朋友你無法出現在影片裡
+                    </p>
+
+                    <p>沒關係</p>
+
+                    <p>
+                        我會讓大家用其他方式記住你
+                    </p>
+
+                    <p>我們７個會用身體記住你。</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="document-footer">
+
+                <a href="about.html">
+                    ← 返回關於我們
+                </a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script>
+
+        function unlockDocument() {
+
+            const password =
+                document.getElementById("password").value;
+
+            if (password === "superpooanalien") {
+
+                document.getElementById("lock-screen").style.display = "none";
+
+                document.getElementById("document-content").style.display = "block";
+
+            } else {
+
+                document.getElementById("error-message").textContent =
+                    "密碼錯誤。";
+
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

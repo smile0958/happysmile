@@ -1,0 +1,1016 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans TC", "Microsoft JhengHei", Arial, sans-serif;
+    background: #ffd9ec;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+header {
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #222;
+    background: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+main {
+    padding: 60px 8%;
+}
+
+.hero {
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero h2 {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 25px;
+    border: 2px solid #222;
+    background: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #222;
+    color: #fff;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.videos {
+    display: flex;
+    gap: 20px;
+}
+
+.video-card {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 25px;
+    width: 250px;
+}
+
+.video-card h3 {
+    margin-top: 0;
+}
+
+footer {
+    border-top: 2px solid #222;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+.members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.member-card {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 20px;
+    text-align: center;
+}
+
+.member-photo {
+    height: 220px;
+    background: #f2f2f2;
+    border: 2px solid #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.member-card h3 {
+    margin-bottom: 8px;
+}
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 20px;
+}
+
+.project-image {
+    height: 180px;
+    background: #f2f2f2;
+    border: 2px solid #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card a {
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    opacity: 0.5;
+}
+.project-detail {
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.project-detail h2 {
+    font-size: 64px;
+    margin: 15px 0;
+}
+
+.project-subtitle {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.project-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-info > div {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 25px;
+}
+
+.project-info strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.project-info p {
+    margin: 0;
+}
+
+.project-rules {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project-rules > div {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 25px;
+}
+
+.project-rules h3 {
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.back-link {
+    margin-top: 50px;
+}
+
+.back-link a {
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    opacity: 0.5;
+}
+.about-hero {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.about-hero h2 {
+    font-size: 64px;
+    margin: 15px 0;
+}
+
+.about-intro {
+    font-size: 24px;
+    max-width: 700px;
+}
+
+.about-values {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.about-values > div {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 25px;
+}
+
+.about-values h3 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.history {
+    border-left: 2px solid #222;
+    padding-left: 30px;
+}
+
+.history > div {
+    margin-bottom: 30px;
+}
+
+.history strong {
+    font-size: 28px;
+}
+.member-card:last-child {
+    grid-column: 2;
+}
+.old-file {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 25px;
+    max-width: 500px;
+}
+
+.old-file h3 {
+    margin-top: 0;
+}
+
+.old-image-placeholder {
+    height: 260px;
+    margin-top: 20px;
+    border: 2px dashed #222;
+    background: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.playlist-card {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 25px;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist-card h3 {
+    font-size: 28px;
+    margin: 5px 0 15px;
+}
+
+.playlist-type {
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.playlist-card a {
+    margin-top: auto;
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.playlist-card a:hover {
+    opacity: 0.5;
+}
+
+
+.recommended-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.recommended-card {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 15px;
+}
+
+.recommended-card img {
+    width: 100%;
+    display: block;
+    border: 2px solid #222;
+    box-sizing: border-box;
+}
+
+.recommended-card h3 {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.recommended-card a {
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.recommended-card a:hover {
+    opacity: 0.5;
+}
+.home-hero {
+    min-height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home-label {
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.home-hero h2 {
+    font-size: 64px;
+    line-height: 1.05;
+    margin: 0 0 30px;
+}
+
+.home-hero p:not(.home-label) {
+    font-size: 20px;
+    max-width: 650px;
+    line-height: 1.7;
+}
+
+.main-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 25px;
+    border: 2px solid #222;
+    background: #fff;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-button:hover {
+    background: #222;
+    color: #fff;
+}
+
+
+.home-more {
+    margin-top: 30px;
+}
+
+.home-more a {
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-more a:hover {
+    opacity: 0.5;
+}
+
+
+.home-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.home-project-card {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 30px;
+}
+
+.home-project-card h3 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.home-project-card a {
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-project-card a:hover {
+    opacity: 0.5;
+}
+
+
+.member-preview {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.member-preview div {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.home-about {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 40px;
+}
+
+.home-about h2 {
+    margin-top: 0;
+}
+
+.home-about a {
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-about a:hover {
+    opacity: 0.5;
+}
+/* ===== 網站互動效果 ===== */
+
+.project-card,
+.home-project-card,
+.member-card,
+.playlist-card,
+.recommended-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover,
+.home-project-card:hover,
+.member-card:hover,
+.playlist-card:hover,
+.recommended-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 6px 6px 0 #222;
+}
+
+
+/* 成員卡片內的圖片區 */
+
+.member-photo {
+    transition: transform 0.2s ease;
+}
+
+.member-card:hover .member-photo {
+    transform: scale(1.03);
+}
+
+
+/* 推薦影片縮圖 */
+
+.recommended-card img {
+    transition: transform 0.2s ease;
+}
+
+.recommended-card:hover img {
+    transform: scale(1.02);
+}
+
+
+/* 導覽列 */
+
+nav a {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+nav a:hover {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+
+/* 一般連結 */
+
+.home-more a,
+.main-button,
+.back-link a,
+.project-card a,
+.home-project-card a,
+.playlist-card a,
+.recommended-card a {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.home-more a:hover,
+.back-link a:hover,
+.project-card a:hover,
+.home-project-card a:hover,
+.playlist-card a:hover,
+.recommended-card a:hover {
+    opacity: 0.7;
+}
+/* ===== 頁面轉場 ===== */
+
+body {
+    animation: pageFadeIn 0.4s ease;
+}
+
+@keyframes pageFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.member-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.member-photo {
+    overflow: hidden;
+}
+.member-smile {
+    background: #fdb7d7;
+}
+
+.member-miko {
+    background: #668df0;
+}
+
+.member-gy {
+    background: #8c52ff;
+}
+
+.member-zebra {
+    background: #ffde59;
+}
+
+.member-bro {
+    background: #ff751f;
+}
+
+.member-man {
+    background: #96736d;
+}
+
+.member-jennoyo {
+    background: #c9ff9b;
+}
+section p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+section h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.about-hero .home-label {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+}
+.about-hero h2 {
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.about-hero {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.about-hero .home-label {
+    font-size: 36px !important;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin: 0 0 8px 0;
+}
+.about-hero {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.about-hero + section {
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+.about-hero .home-label,
+.about-hero h2 {
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    font-weight: 700;
+}
+.about-hero h2 {
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.about-hero h2:first-of-type {
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+
+.about-hero h2:nth-of-type(2) {
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.chat-record {
+    max-width: 800px;
+}
+
+.record-date {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.chat-message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.chat-name {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.chat-bubble {
+    width: fit-content;
+    max-width: 75%;
+    padding: 14px 18px;
+    border: 2px solid #222;
+    background: #fff;
+    line-height: 1.6;
+}
+
+.smile-message {
+    align-items: flex-start;
+}
+
+.sp-message {
+    align-items: flex-end;
+}
+
+.sp-message .chat-name {
+    text-align: right;
+}
+
+.sp-message .chat-bubble {
+    background: #f2f2f2;
+}
+
+.record-note {
+    margin-top: 40px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+.file-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.file-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+    background: transparent;
+    border: none;
+    color: #222;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.file-card:hover {
+    transform: none;
+    box-shadow: none;
+    opacity: 0.65;
+}
+
+.file-icon {
+    width: 38px;
+    height: 44px;
+    border: 2px solid #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.file-info {
+    flex: 1;
+}
+
+.file-info h3 {
+    margin: 0 0 2px;
+    font-size: 16px;
+}
+
+.file-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.file-arrow {
+    font-size: 24px;
+}
+
+
+/* 文件閱讀畫面 */
+
+.document-window {
+    max-width: 850px;
+    margin: 50px auto;
+    background: transparent;
+    border: none;
+}
+
+.document-header {
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.document-content {
+    padding: 45px;
+    min-height: 500px;
+    font-family: "Courier New", monospace;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.document-content p {
+    margin: 0 0 18px;
+}
+
+.missing-text {
+    margin-top: 45px !important;
+    opacity: 0.45;
+}
+
+.document-footer {
+    padding: 20px 0;
+    border-top: 1px solid #999;
+}
+
+.document-footer a {
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+}
+.origin-section {
+    margin-bottom: 30px;
+}
+
+.origin-section .archive-text {
+    max-width: 800px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.origin-section .archive-text p {
+    margin: 0 0 18px;
+}
+
+.origin-section .archive-text p:last-child {
+    margin-bottom: 0;
+}
+
+.damaged-file {
+    opacity: 0.5;
+    font-style: italic;
+}
+.origin-section + section {
+    margin-top: -10px !important;
+}
+.member-card {
+    color: #222;
+    text-decoration: none;
+}
+
+.member-card:hover {
+    color: #222;
+    text-decoration: none;
+}
+.record-link {
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.record-link:hover {
+    opacity: 0.6;
+}
+.member-detail {
+    position: relative;
+    min-height: 500px;
+}
+
+.member-records {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.record-link {
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.record-link:hover {
+    opacity: 0.6;
+}
+.hidden-link {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hidden-link:hover {
+    text-decoration: underline;
+}
+.projects + .meeting-link {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.projects + .meeting-link a {
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.projects + .meeting-link a:hover {
+    opacity: 0.6;
+}
+.sp-poo-link {
+    text-decoration: none;
+}
+.sp-record-link {
+    color: #222;
+    text-decoration: none;
+}
+
+.sp-record-link:hover {
+    opacity: 0.6;
+}
+.old-file img {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    margin-top: 15px;
+}
+.record-box {
+    position: relative;
+}
+
+.secret-record-link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+}
+#password,
+#lock-screen button {
+    height: 36px;
+    box-sizing: border-box;
+}
+
+#password {
+    padding: 0 10px;
+}
+
+#lock-screen button {
+    padding: 0 14px;
+}
+@media (max-width: 600px) {
+
+    main {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .member-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .document-window {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .document-content {
+        overflow-wrap: break-word;
+    }
+
+    .document-content video {
+        width: 100%;
+        height: auto;
+    }
+
+    #password {
+        width: 60%;
+        box-sizing: border-box;
+    }
+
+    #lock-screen button {
+        min-height: 36px;
+        box-sizing: border-box;
+    }
+
+    .member-preview {
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.member-preview div {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+}

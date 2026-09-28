@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>SP - 匯報</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="document-window">
+
+            <div class="document-content">
+
+                <div id="lock-screen">
+
+                    <p>此檔案已鎖定。</p>
+
+                    <p>請輸入密碼。</p>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="密碼"
+                    >
+
+                    <button onclick="unlockVideo()">
+                        解鎖
+                    </button>
+
+                    <p id="error-message"></p>
+
+                </div>
+
+
+                <div id="video-content" style="display: none;">
+
+                    <video controls width="100%">
+
+                        <source
+                            src="videos/poo的匯報.mp4"
+                            type="video/mp4"
+                        >
+
+                        您的瀏覽器不支援影片播放。
+
+                    </video>
+
+                </div>
+
+            </div>
+
+
+            <div class="document-footer">
+
+                <a href="about.html">
+                     ← 返回關於我們
+                </a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script>
+
+        function unlockVideo() {
+
+            const password =
+                document.getElementById("password").value;
+
+            if (password === "20060807") {
+
+                document.getElementById("lock-screen").style.display = "none";
+
+                document.getElementById("video-content").style.display = "block";
+
+            } else {
+
+                document.getElementById("error-message").textContent =
+                    "密碼錯誤。";
+
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
